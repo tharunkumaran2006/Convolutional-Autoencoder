@@ -35,9 +35,9 @@ Train the model using noisy images as input and original images as target.
 Visualize and compare original, noisy, and denoised images.
 
 ## PROGRAM
-### Name: ANU VARSHINI M B
-### Register Number: 212223240010
-```
+### Name: THARUN V K
+### Register Number: 212223230231
+```python
 class DenoisingAutoencoder(nn.Module):
     def __init__(self):
         super(DenoisingAutoencoder, self).__init__()
@@ -99,7 +99,7 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: Anu Varshini")
+    print("Name: Anu ")
     print("Register Number: 212223240010")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
@@ -129,13 +129,13 @@ def visualize_denoising(model, loader, num_images=10):
 
 ### Model Summary
 
-![image](https://github.com/user-attachments/assets/f1fb5a76-a90e-4684-9cde-5320a6edddf7)
+![Screenshot 2025-05-12 110242](https://github.com/user-attachments/assets/1e286e82-df33-4890-950f-1295cc2fc038)
+
 
 
 ### Original vs Noisy Vs Reconstructed Image
 
-![image](https://github.com/user-attachments/assets/9d8c5036-43bd-4a68-8b22-3f264ffcb8d8)
-
+![Screenshot 2025-05-12 110258](https://github.com/user-attachments/assets/7149c74f-4709-48ba-8c1a-9e44c3a80e45)
 
 
 
