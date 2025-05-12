@@ -6,20 +6,34 @@ To develop a convolutional autoencoder for image denoising application.
 
 ## Problem Statement and Dataset
 
+Noise is a common issue in real-world image data, which affects performance in image analysis tasks. An autoencoder can be trained to remove noise from images, effectively learning compressed representations that help in reconstruction. The MNIST dataset (28x28 grayscale handwritten digits) will be used for this task. Gaussian noise will be added to simulate real-world noisy data.
 
-## DESIGN STEPS
+### DESIGN STEPS:
+## STEP 1:
+Import necessary libraries such as NumPy, Matplotlib, TensorFlow/Keras.
 
-### STEP 1:
+## STEP 2:
+Load and normalize the MNIST dataset. Add Gaussian noise to both training and test images.
 
-### STEP 2:
+## STEP 3:
+Build a convolutional autoencoder model with the following structure:
 
-### STEP 3:
+Encoder: Conv2D + MaxPooling
 
-Write your own steps
+Decoder: Conv2DTranspose or UpSampling + Conv2D
+
+## STEP 4:
+Compile the model using binary_crossentropy or mse loss and adam optimizer.
+
+## STEP 5:
+Train the model with noisy images as input and clean images as target.
+
+## STEP 6:
+Evaluate the model and visualize original, noisy, and denoised outputs.
 
 ## PROGRAM
-### Name:
-### Register Number:
+### Name: ANU VARSHINI M B
+### Register Number: 212223240010
 
 
 Include your code here
@@ -37,3 +51,4 @@ Include a few sample images here.
 
 
 ## RESULT
+The convolutional autoencoder was successfully trained to denoise MNIST digit images. The model effectively reconstructed clean images from their noisy versions, demonstrating its capability in feature extraction and noise reduction.
