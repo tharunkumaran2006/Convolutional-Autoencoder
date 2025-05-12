@@ -45,11 +45,13 @@ Include your code here
 
 ### Model Summary
 
-Include your model summary
+![image](https://github.com/user-attachments/assets/f1fb5a76-a90e-4684-9cde-5320a6edddf7)
+
 
 ### Original vs Noisy Vs Reconstructed Image
 
-Include a few sample images here.
+![image](https://github.com/user-attachments/assets/9d8c5036-43bd-4a68-8b22-3f264ffcb8d8)
+
 
 
 
